@@ -20,7 +20,7 @@ public class GameDTO {
 	}
 	
 	public GameDTO(Game entity) {
-		BeanUtils.copyProperties(entity, this); //Propriedade que compia atributos de um obejeto para a classe
+		BeanUtils.copyProperties(entity, this); //Propriedade que compia atributos de um obejeto para a classe. Necessário implementar gets e sets.
 	}
 
 	public Long getId() {
